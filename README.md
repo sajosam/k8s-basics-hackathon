@@ -82,9 +82,15 @@ List all the pods in the namespace `my-namespace` using **kubectl get pods -n < 
 
 ```
 
+Get extra details about the pods in the namespace `my-namespace` using **kubectl get pods -n < namespace> -o wide** command
+```
+<Paste output here>
+
+```
+
 ## Task 7
 
-Get details about the pods using **kubectl describe pods/< pod-name > -n < namespace>** command
+Get details about `nginx` pod in `my-namespace`  using **kubectl describe pods/< pod-name > -n < namespace>** command
 
 
 ```
