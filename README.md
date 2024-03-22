@@ -142,3 +142,10 @@ https://kubernetes.io/docs/reference/kubectl/generated/kubectl_delete
 <Paste the output of kubectl delete command>
 
 ```
+
+Delete the namespace `my-namespace` using **kubectl delete namespace < namespace >** command
+
+```
+<Paste the output of kubectl delete command>
+
+```
