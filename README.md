@@ -76,13 +76,23 @@ Copy the yaml content below
 
 ```
 
-List all the pods in the namespace you created in **Task 5**
+List all the pods in the namespace `my-namespace` using **kubectl get pods -n < namespace>** command
 ```
 <Paste output here>
 
 ```
 
-## Task 7 
+## Task 7
+
+Get details about the pods using **kubectl describe pods/< pod-name > -n < namespace>** command
+
+
+```
+<Paste the output of describe command below>
+
+```
+
+## Task 8
 
 Port forward the `nginx` (running in namespace `my-namespace`) pods's port `80` to your local systems port `9090` using **kubectl port-forward** command 
 
@@ -103,7 +113,7 @@ Open another terminal  and do a curl to the port using given command
 ```
 
 
-## Task 8
+## Task 9
 
 List all the logs of pod `nginx` running in `my-namespace`  using **kubectl logs** command
 
@@ -114,7 +124,7 @@ https://kubernetes.io/docs/reference/kubectl/generated/kubectl_logs
 
 ```
 
-## Task 9
+## Task 10
 Delete the pod `nginx` using the yaml configurations we created in the **Task 6**
 
 **kubectl delete -f < yaml file name with path from task 6>**
