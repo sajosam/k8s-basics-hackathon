@@ -53,7 +53,7 @@ List all the pods in '*kube-system*' namespace using `kubectl get pods -n <names
 
 ## Task 5
 
-Create a namespace with name `my-namespace` using `kubectl create <namespace name>` command
+Create a namespace with name `my-namespace` using `kubectl create namespace <namespace name>` command
 
 List all namespaces like  in **Task 3**  and paste output below
 ```
@@ -111,7 +111,7 @@ https://kubernetes.io/docs/reference/kubectl/generated/kubectl_port-forward/
 ```
 
 Open another terminal  and do a curl to the port using given command
-`curl http://localhost:9000`
+`curl http://localhost:9090`
 
 ```
 <Paste the output of curl command below>
